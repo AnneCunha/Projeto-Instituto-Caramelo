@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+.HeaderBackground {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: flex-end;
+}
+.buttonheader {
+    color: #FCD394;
+    background-color: black;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+ }
+ .FundoLogin{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 778px;
+    width: 650px;
+    border-radius: 5px;
+    border-style: solid;
+ }
+ .conteudologin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .logo{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+ }
+ .email {
+    margin-bottom: 50px;
+    margin-top: 30px;
+ }
+ input {
+    height: 45px;
+    width: 480px;
+    border-radius: 5px;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+ }
+.enviarbutton {
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    background-color: #FCD394;
+    cursor: pointer;
+    margin: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+.esqsenha {
+    color: #FCD394;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-right: 330px;
+    margin: 5px;
+}
+.FundoLogin hr {
+    width: 497px;
+    border-color: #FCD394;
+}
+.cadastrar {
+    color: #FCD394;
+    background-color: black;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer{
+    height: 55px;
+}
+.footer hr{
+    border-color: #FCD394;
+    padding-top: 20px;
+    border-left: none;
+    border-right: none;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+  }
+  section .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 100px;
+
+  }
+  section .air.air1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  section .air.air2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  section .air.air3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  section .air.air4{
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes wave{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: 1000px; 
+    }
+  }
+  @keyframes wave2{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: -1000px;
+    }
+  }
